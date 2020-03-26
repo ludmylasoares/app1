@@ -1,4 +1,12 @@
-# App1
+# #App1 - Aprendendo Inglês
+ Curso de Desenvolvimento WEB com ES6, TypeScript e Angular 4!
+
+<a href="https://app1-ludmyla-soares.s3-website.us-east-2.amazonaws.com">Demonstração</a>
+
+Fonte: </br>
+Plataforma de cursos: <a href="https:/www.udemy.com">Udemy.com</a> </br>
+Por <a href="https://www.udemy.com/course/curso-de-desenvolvimento-web-com-es6-typescript-e-angular-4/">Jorge Sant Ana </a> (Programador) </br>
+Adaptado por <a href="https:/www.ludmylasoares.site">Ludmyla Soares</a> (Analista e Desenvolvedora de Sistemas)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
 
