@@ -2,8 +2,8 @@
     <div class="jumbotron">
         <div class="row">
             <div class="col-sm-6">
-                <h2 style="color: #6c3D73; font-family: 'Comfortaa', cursive">Aprendendo Inglês</h2>
-                <h5 style="color: #6c3D73; font-family: 'Comfortaa', cursive;">{{ instrucao }}</h5> 
+                <h2 class="animated bounceInLeft delay-1s" style="color: #6c3D73; font-family: 'Comfortaa', cursive">Aprendendo Inglês</h2>
+                <h5 class="animated bounceInRight delay-2s" style="color: #6c3D73; font-family: 'Comfortaa', cursive;">{{ instrucao }}</h5> 
             </div>
               <div class="col-sm-6">
                 <div class="d-flex justify-content-end">
@@ -12,16 +12,16 @@
             </div>
         </div>
         
-        <div class="row">
+        <div class="row" >
             <div class="col">
-                <h3 style="color: #f9325c; font-family: 'Baloo Bhai', cursive;">{{ rodadaFrase.fraseEng }}</h3> 
+                <h3 class="animated fadeIn delay-4s" style="color: #f9325c; font-family: 'Baloo Bhai', cursive;">{{ rodadaFrase.fraseEng }}</h3> 
                 <p></p>
                 <div class="form-group">
                     <textarea 
-                    class="form-control"
-                    rows="3"
-                    [value]="resposta"
-                    (input) = "atualizaResposta($event)"
+                        class="form-control"
+                        rows="3"
+                        [value]="resposta"
+                        (input) = "atualizaResposta($event)"
                    ></textarea>
                 </div>
                 <div class="row">

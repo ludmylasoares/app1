@@ -1,4 +1,5 @@
-import { Component } from '@angular/core'
+import { Component } from '@angular/core';
+
 
 @Component({
     selector: 'app-topo',
@@ -8,4 +9,5 @@ import { Component } from '@angular/core'
 })
 export class TopoComponent {
       public titulo: string = 'Ludmyla Soares'
+      public subtitulo: string = 'Desenvolvedora Front-End'
 }
