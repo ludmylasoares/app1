@@ -1,27 +1,34 @@
-# App1
+# #App1 - Aprendendo Inglês
+ Curso de Desenvolvimento WEB com ES6, TypeScript e Angular!
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
+<a href="http://app1-ludmyla-soares.s3-website.us-east-2.amazonaws.com">Demonstração</a>
+Adaptado por <a href="https:/www.ludmylasoares.site">Ludmyla Soares</a> (Analista e Desenvolvedora de Sistemas)
 
-## Development server
+Fonte: </br>
+Plataforma de cursos: <a href="https:/www.udemy.com">Udemy.com</a> </br>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 9.0.1.
 
-## Code scaffolding
+## Servidor de desenvolvimento
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Execute `ng serve` para um servidor dev. Navegue para `http: // localhost: 4200 /`. O aplicativo será recarregado automaticamente sem ter que localizar qualquer um dos arquivos de origem.
 
-## Build
+## Andaimes de código
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Execute `ng gerar componente nome-do-componente` para gerar um novo componente. Você também pode usar a diretiva ng ng | pipe | service | class | guard | interface | enum | module`.
 
-## Running unit tests
+## Construir
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Execute `ng build` para criar o projeto. Os artefatos de construção serão armazenados no diretório `dist /`. Use o sinalizador `--prod` para uma construção de produção.
 
-## Running end-to-end tests
+## Executando testes de unidade
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Execute o `ng test` para executar os testes de unidade via [Karma] (https://karma-runner.github.io).
 
-## Further help
+## Executando testes de ponta a ponta
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Execute `ng e2e` para executar os testes de ponta a ponta via [Transferidor] (http://www.protractortest.org/).
+
+## Ajuda adicional
+
+Para obter mais ajuda na CLI Angular, use `ng help` ou vá para o [README da CLI angular] (https://github.com/angular/angular-cli/blob/master/README.md).
