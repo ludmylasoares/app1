@@ -1,8 +1,9 @@
 # #App1 - Aprendendo Inglês
  Curso de Desenvolvimento WEB com ES6, TypeScript e Angular!
 
-<a href="http://app1-ludmyla-soares.s3-website.us-east-2.amazonaws.com">Demonstração</a>
-Adaptado por <a href="https:/www.ludmylasoares.site">Ludmyla Soares</a> (Analista e Desenvolvedora de Sistemas)
+<a href="http://app1.ludmylasoares.site">Demonstração</a></br>
+
+Adaptado por <a href="https//ludmylasoares.site">Ludmyla Soares</a> (Analista e Desenvolvedora de Sistemas)
 
 Fonte: </br>
 Plataforma de cursos: <a href="https:/www.udemy.com">Udemy.com</a> </br>
