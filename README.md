@@ -1,7 +1,7 @@
 # #App1 - Aprendendo Inglês
  Curso de Desenvolvimento WEB com ES6, TypeScript e Angular!
 
-<a href="http://app1-ludmyla-soares.s3-website.us-east-2.amazonaws.com">Demonstração</a>
+<a href="https://app1-ludmyla-soares.s3-website.us-east-2.amazonaws.com">Demonstração</a>
 Adaptado por <a href="https:/www.ludmylasoares.site">Ludmyla Soares</a> (Analista e Desenvolvedora de Sistemas)
 
 Fonte: </br>
@@ -27,7 +27,7 @@ Execute o `ng test` para executar os testes de unidade via [Karma] (https://karm
 
 ## Executando testes de ponta a ponta
 
-Execute `ng e2e` para executar os testes de ponta a ponta via [Transferidor] (http://www.protractortest.org/).
+Execute `ng e2e` para executar os testes de ponta a ponta via [Transferidor] (https://www.protractortest.org/).
 
 ## Ajuda adicional
 
