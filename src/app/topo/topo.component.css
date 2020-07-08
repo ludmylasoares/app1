@@ -6,6 +6,11 @@
     transform: scale(1.5);
  
 }*/
-
+a:link {
+    color:#f9325c;
+}
+a:link:hover {
+    color:#c98baa;
+}
  
 
