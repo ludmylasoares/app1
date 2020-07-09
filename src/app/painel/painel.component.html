@@ -19,12 +19,18 @@
                     {{ rodadaFrase.fraseEng }}</h3> 
                 <p></p>
                 <div class="form-group">
-                    <textarea 
-                        class="form-control"
-                        rows="3"
-                        [value]="resposta"
-                        (input) = "atualizaResposta($event)"
-                   ></textarea>
+                    <label for="traducao" style="width: 100%;">
+                        <input #box    
+                            type="textarea"
+                            id="traducao"
+                            name="traducao"
+                            class="form-control"
+                            rows="1"
+                            [value]="resposta"
+                            (input)="atualizaResposta($event)"
+                            (keyup.enter)="verificarResposta($event)"
+                            placeholder="Digite a frase em português...">
+                    </label>
                 </div>
                 <div class="row">
                     <div class="col-sm-6">
@@ -35,8 +41,9 @@
          <div class="row">
             <div class="col">
                 <div class="d-flex justify-content-end">
-                    <button type="button" style="background-color: #6C3D73; border: 0px; font-family: 'Comfortaa', cursive;" 
-                    class="btn btn-info btn-lg" (click)="verificarResposta()">Verificar</button></div>  
+                    <button type="button" id="verificar" style="background-color: #6C3D73; border: 0px; font-family: 'Comfortaa', cursive;" 
+                    class="btn btn-info btn-lg" (click)="verificarResposta()">Verificar</button>
+                </div>  
             </div>
         </div>
     </div>

@@ -65,8 +65,7 @@ public verificarResposta(): void {
       this.encerrarJogo.emit('derrota')
     }
   }
- }
-
+}
 public atualizaRodada(): void {
 
   //define a frase da rodada com base em alguma lógica
