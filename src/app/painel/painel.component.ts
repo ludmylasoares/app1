@@ -8,7 +8,7 @@ import { FRASES } from './frases-mock'
   styleUrls: ['./painel.component.css']
 })
 export class PainelComponent implements OnInit, OnDestroy {
-
+  
   public frases: Frase[] = FRASES
   public instrucao: string = 'Traduza as 4 frases abaixo: '
   public resposta: string = ''
@@ -19,7 +19,7 @@ export class PainelComponent implements OnInit, OnDestroy {
   public progresso: number = 0
 
   public tentativas: number = 3
-
+     
   @Output() public encerrarJogo: EventEmitter<string> = new EventEmitter()
   
   constructor() { 
@@ -74,4 +74,7 @@ public atualizaRodada(): void {
   //limpar a resposta
   this.resposta = ''
  }
+ public refreshPage(): void {
+  window.location.reload();
+} 
 }

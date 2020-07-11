@@ -20,15 +20,14 @@
                 <p></p>
                 <div class="form-group">
                     <label for="traducao" style="width: 100%;">
-                        <input #box    
+                        <input   
                             type="textarea"
                             id="traducao"
                             name="traducao"
                             class="form-control"
-                            rows="1"
                             [value]="resposta"
                             (input)="atualizaResposta($event)"
-                            (keyup.enter)="verificarResposta($event)"
+                            (keyup.enter)="verificarResposta()"
                             placeholder="Digite a frase em português...">
                     </label>
                 </div>
@@ -38,11 +37,14 @@
                     </div>
                  </div> 
                  <p></p>  
-         <div class="row">
+        <div class="row">
             <div class="col">
                 <div class="d-flex justify-content-end">
-                    <button type="button" id="verificar" style="background-color: #6C3D73; border: 0px; font-family: 'Comfortaa', cursive;" 
-                    class="btn btn-info btn-lg" (click)="verificarResposta()">Verificar</button>
+                    <button type="button" (click)="refreshPage()" class="btn btn-info btn-lg" 
+                        style="background-color: #6C3D73; border: 0px; font-family: 'Comfortaa', cursive;margin-right:10px;">
+                        Reiniciar</button>
+                    <button class="btn btn-info btn-lg" style="background-color: #6C3D73; border: 0px; font-family: 'Comfortaa', cursive;" 
+                        (click)="verificarResposta()">Verificar</button>
                 </div>  
             </div>
         </div>
